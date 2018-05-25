@@ -1,0 +1,32 @@
+[31m[1m10:15:37.21 <error> BadRequestError: 标签类型不能为空[22m[39m
+[31m[1m    at Object.throw (/Users/palive/Desktop/gitProject/vue-koa2-blog/server/node_modules/_koa@2.5.1@koa/lib/context.js:93:11)[22m[39m
+[31m[1m    at createTag (/Users/palive/Desktop/gitProject/vue-koa2-blog/server/controllers/tag.js:8:22)[22m[39m
+[31m[1m    at dispatch (/Users/palive/Desktop/gitProject/vue-koa2-blog/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/palive/Desktop/gitProject/vue-koa2-blog/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at module.exports (/Users/palive/Desktop/gitProject/vue-koa2-blog/server/middlewares/checkToken.js:28:11)[22m[39m
+[31m[1m    at dispatch (/Users/palive/Desktop/gitProject/vue-koa2-blog/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/palive/Desktop/gitProject/vue-koa2-blog/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/palive/Desktop/gitProject/vue-koa2-blog/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/palive/Desktop/gitProject/vue-koa2-blog/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/palive/Desktop/gitProject/vue-koa2-blog/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/palive/Desktop/gitProject/vue-koa2-blog/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/palive/Desktop/gitProject/vue-koa2-blog/server/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/palive/Desktop/gitProject/vue-koa2-blog/server/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at <anonymous>[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:169:7) (in errorHandle.js:24)[22m[39m
+[31m[1m10:16:48.25 <error> BadRequestError: 标签类型不能为空[22m[39m
+[31m[1m    at Object.throw (/Users/palive/Desktop/gitProject/vue-koa2-blog/server/node_modules/_koa@2.5.1@koa/lib/context.js:93:11)[22m[39m
+[31m[1m    at createTag (/Users/palive/Desktop/gitProject/vue-koa2-blog/server/controllers/tag.js:8:22)[22m[39m
+[31m[1m    at dispatch (/Users/palive/Desktop/gitProject/vue-koa2-blog/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/palive/Desktop/gitProject/vue-koa2-blog/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at module.exports (/Users/palive/Desktop/gitProject/vue-koa2-blog/server/middlewares/checkToken.js:28:11)[22m[39m
+[31m[1m    at dispatch (/Users/palive/Desktop/gitProject/vue-koa2-blog/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/palive/Desktop/gitProject/vue-koa2-blog/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/palive/Desktop/gitProject/vue-koa2-blog/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/palive/Desktop/gitProject/vue-koa2-blog/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/palive/Desktop/gitProject/vue-koa2-blog/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/palive/Desktop/gitProject/vue-koa2-blog/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/palive/Desktop/gitProject/vue-koa2-blog/server/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/palive/Desktop/gitProject/vue-koa2-blog/server/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at <anonymous>[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:169:7) (in errorHandle.js:24)[22m[39m
