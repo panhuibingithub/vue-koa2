@@ -1,7 +1,7 @@
 <template>
     <div class="tags-wrapper">
         <div class="tags">
-            <v-tag v-for="(item, index) in tags" :tagName="item" :index="index"
+            <v-tag v-for="(item, index) in tags" :tagName="item" :key='index' :index="index"
             @changeValue="changeTag"
             @deleteTag="deleteTag"
             ></v-tag>
@@ -27,7 +27,6 @@ export default {
             allTags: state => state.article.allTags
         }),
         tags(){
-        		debugger;
             return this.allTags.map(o => o.name);
         }
     },

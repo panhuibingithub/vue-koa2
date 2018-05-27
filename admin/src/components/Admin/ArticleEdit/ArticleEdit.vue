@@ -213,6 +213,7 @@ export default {
                 });
                 return;
             }
+            content = content+"<!--more-->";
             let abstract;
             if(content.indexOf('<!--more-->') !== -1 && content.split('<!--more-->')[0] !== ''){
                 abstract = content.split('<!--more-->')[0];

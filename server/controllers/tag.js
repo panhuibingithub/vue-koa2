@@ -35,7 +35,7 @@ class tagController{
     }
     //获得所有标签
     static async getAllTags(ctx){
-        let result = await Tag.find();
+        let result = await Tag.find({});
         ctx.success({
             msg: '获得所有标签成功!',
             data: result

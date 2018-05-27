@@ -30,3 +30,293 @@
 [31m[1m    at module.exports (/Users/palive/Desktop/gitProject/vue-koa2-blog/server/middlewares/initAdmin.js:30:11)[22m[39m
 [31m[1m    at <anonymous>[22m[39m
 [31m[1m    at process._tickCallback (internal/process/next_tick.js:169:7) (in errorHandle.js:24)[22m[39m
+[31m[1m17:36:49.91 <error> BadRequestError: 标签类型不能为空[22m[39m
+[31m[1m    at Object.throw (/Users/panhuibin/gitProject/vue-koa2-blog/server/node_modules/_koa@2.5.1@koa/lib/context.js:93:11)[22m[39m
+[31m[1m    at createTag (/Users/panhuibin/gitProject/vue-koa2-blog/server/controllers/tag.js:8:22)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2-blog/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/panhuibin/gitProject/vue-koa2-blog/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at module.exports (/Users/panhuibin/gitProject/vue-koa2-blog/server/middlewares/checkToken.js:28:11)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2-blog/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/panhuibin/gitProject/vue-koa2-blog/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/panhuibin/gitProject/vue-koa2-blog/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2-blog/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/panhuibin/gitProject/vue-koa2-blog/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2-blog/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2-blog/server/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/panhuibin/gitProject/vue-koa2-blog/server/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:103:7) (in errorHandle.js:24)[22m[39m
+[31m[1m17:39:17.71 <error> BadRequestError: 标签类型不能为空[22m[39m
+[31m[1m    at Object.throw (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa@2.5.1@koa/lib/context.js:93:11)[22m[39m
+[31m[1m    at createTag (/Users/panhuibin/gitProject/vue-koa2/server/controllers/tag.js:8:22)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at module.exports (/Users/panhuibin/gitProject/vue-koa2/server/middlewares/checkToken.js:28:11)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/panhuibin/gitProject/vue-koa2/server/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:103:7) (in errorHandle.js:24)[22m[39m
+[31m[1m17:43:59.34 <error> TypeError: (intermediate value).createArticle is not a function[22m[39m
+[31m[1m    at createArticle (/Users/panhuibin/gitProject/vue-koa2/server/controllers/article.js:19:43)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at module.exports (/Users/panhuibin/gitProject/vue-koa2/server/middlewares/checkToken.js:28:11)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/panhuibin/gitProject/vue-koa2/server/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:103:7) (in errorHandle.js:24)[22m[39m
+[31m[1m17:44:58.77 <error> BadRequestError: 标签类型不能为空[22m[39m
+[31m[1m    at Object.throw (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa@2.5.1@koa/lib/context.js:93:11)[22m[39m
+[31m[1m    at createTag (/Users/panhuibin/gitProject/vue-koa2/server/controllers/tag.js:8:22)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at module.exports (/Users/panhuibin/gitProject/vue-koa2/server/middlewares/checkToken.js:28:11)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/panhuibin/gitProject/vue-koa2/server/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:103:7) (in errorHandle.js:24)[22m[39m
+[31m[1m17:45:33.11 <error> TypeError: (intermediate value).createArticle is not a function[22m[39m
+[31m[1m    at createArticle (/Users/panhuibin/gitProject/vue-koa2/server/controllers/article.js:19:43)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at module.exports (/Users/panhuibin/gitProject/vue-koa2/server/middlewares/checkToken.js:28:11)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/panhuibin/gitProject/vue-koa2/server/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:103:7) (in errorHandle.js:24)[22m[39m
+[31m[1m17:46:33.22 <error> TypeError: (intermediate value).createArticle is not a function[22m[39m
+[31m[1m    at createArticle (/Users/panhuibin/gitProject/vue-koa2/server/controllers/article.js:19:43)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at module.exports (/Users/panhuibin/gitProject/vue-koa2/server/middlewares/checkToken.js:28:11)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/panhuibin/gitProject/vue-koa2/server/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:103:7) (in errorHandle.js:24)[22m[39m
+[31m[1m17:47:16.69 <error> TypeError: (intermediate value).createArticle is not a function[22m[39m
+[31m[1m    at createArticle (/Users/panhuibin/gitProject/vue-koa2/server/controllers/article.js:19:43)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at module.exports (/Users/panhuibin/gitProject/vue-koa2/server/middlewares/checkToken.js:28:11)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/panhuibin/gitProject/vue-koa2/server/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:103:7) (in errorHandle.js:24)[22m[39m
+[31m[1m17:47:16.98 <error> TypeError: (intermediate value).createArticle is not a function[22m[39m
+[31m[1m    at createArticle (/Users/panhuibin/gitProject/vue-koa2/server/controllers/article.js:19:43)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at module.exports (/Users/panhuibin/gitProject/vue-koa2/server/middlewares/checkToken.js:28:11)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/panhuibin/gitProject/vue-koa2/server/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:103:7) (in errorHandle.js:24)[22m[39m
+[31m[1m17:48:31.32 <error> TypeError: (intermediate value).createArticle is not a function[22m[39m
+[31m[1m    at createArticle (/Users/panhuibin/gitProject/vue-koa2/server/controllers/article.js:19:43)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at module.exports (/Users/panhuibin/gitProject/vue-koa2/server/middlewares/checkToken.js:28:11)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/panhuibin/gitProject/vue-koa2/server/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:103:7) (in errorHandle.js:24)[22m[39m
+[31m[1m17:48:43.02 <error> TypeError: articleService.createArticle is not a function[22m[39m
+[31m[1m    at createArticle (/Users/panhuibin/gitProject/vue-koa2/server/controllers/article.js:21:37)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at module.exports (/Users/panhuibin/gitProject/vue-koa2/server/middlewares/checkToken.js:28:11)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/panhuibin/gitProject/vue-koa2/server/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:103:7) (in errorHandle.js:24)[22m[39m
+[31m[1m17:49:24.76 <error> TypeError: articleService.createArticle is not a function[22m[39m
+[31m[1m    at createArticle (/Users/panhuibin/gitProject/vue-koa2/server/controllers/article.js:21:37)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at module.exports (/Users/panhuibin/gitProject/vue-koa2/server/middlewares/checkToken.js:28:11)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/panhuibin/gitProject/vue-koa2/server/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:103:7) (in errorHandle.js:24)[22m[39m
+[31m[1m17:49:42.09 <error> TypeError: articleService.createArticle is not a function[22m[39m
+[31m[1m    at createArticle (/Users/panhuibin/gitProject/vue-koa2/server/controllers/article.js:21:37)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at module.exports (/Users/panhuibin/gitProject/vue-koa2/server/middlewares/checkToken.js:28:11)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/panhuibin/gitProject/vue-koa2/server/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:103:7) (in errorHandle.js:24)[22m[39m
+[31m[1m17:51:19.65 <error> TypeError: articleService.createArticle is not a function[22m[39m
+[31m[1m    at createArticle (/Users/panhuibin/gitProject/vue-koa2/server/controllers/article.js:22:37)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at module.exports (/Users/panhuibin/gitProject/vue-koa2/server/middlewares/checkToken.js:28:11)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/panhuibin/gitProject/vue-koa2/server/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:103:7) (in errorHandle.js:24)[22m[39m
+[31m[1m17:56:34.77 <error> TypeError: articleService.createArticle is not a function[22m[39m
+[31m[1m    at createArticle (/Users/panhuibin/gitProject/vue-koa2/server/controllers/article.js:22:37)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at module.exports (/Users/panhuibin/gitProject/vue-koa2/server/middlewares/checkToken.js:28:11)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/panhuibin/gitProject/vue-koa2/server/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:103:7) (in errorHandle.js:24)[22m[39m
+[31m[1m17:57:26.58 <error> TypeError: articleService.createArticle is not a function[22m[39m
+[31m[1m    at createArticle (/Users/panhuibin/gitProject/vue-koa2/server/controllers/article.js:22:37)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at module.exports (/Users/panhuibin/gitProject/vue-koa2/server/middlewares/checkToken.js:28:11)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/panhuibin/gitProject/vue-koa2/server/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:103:7) (in errorHandle.js:24)[22m[39m
+[31m[1m17:57:44.20 <error> TypeError: articleService.createArticle is not a function[22m[39m
+[31m[1m    at createArticle (/Users/panhuibin/gitProject/vue-koa2/server/controllers/article.js:23:37)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at module.exports (/Users/panhuibin/gitProject/vue-koa2/server/middlewares/checkToken.js:28:11)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/panhuibin/gitProject/vue-koa2/server/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:103:7) (in errorHandle.js:24)[22m[39m
+[31m[1m18:02:48.42 <error> InternalServerError: 服务器内部错误-findByIdAndUpdate错误![22m[39m
+[31m[1m    at Object.throw (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa@2.5.1@koa/lib/context.js:93:11)[22m[39m
+[31m[1m    at Article.findByIdAndUpdate.populate.exec.catch (/Users/panhuibin/gitProject/vue-koa2/server/controllers/article.js:111:22)[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:103:7) (in errorHandle.js:24)[22m[39m
+[31m[1m18:04:44.99 <error> InternalServerError: 服务器内部错误-findByIdAndUpdate错误![22m[39m
+[31m[1m    at Object.throw (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa@2.5.1@koa/lib/context.js:93:11)[22m[39m
+[31m[1m    at Article.findByIdAndUpdate.populate.exec.catch (/Users/panhuibin/gitProject/vue-koa2/server/controllers/article.js:111:22)[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:103:7) (in errorHandle.js:24)[22m[39m
+[31m[1m18:31:58.74 <error> UnauthorizedError: expired token[22m[39m
+[31m[1m    at Object.throw (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa@2.5.1@koa/lib/context.js:93:11)[22m[39m
+[31m[1m    at module.exports (/Users/panhuibin/gitProject/vue-koa2/server/middlewares/checkToken.js:23:22)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/panhuibin/gitProject/vue-koa2/server/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:103:7) (in errorHandle.js:24)[22m[39m
+[31m[1m18:32:35.56 <error> InternalServerError: 服务器内部错误-updatePublish错误![22m[39m
+[31m[1m    at Object.throw (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa@2.5.1@koa/lib/context.js:93:11)[22m[39m
+[31m[1m    at Article.findByIdAndUpdate.exec.catch.err (/Users/panhuibin/gitProject/vue-koa2/server/controllers/article.js:69:26)[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:103:7) (in errorHandle.js:24)[22m[39m
+[31m[1m18:32:40.03 <error> InternalServerError: 服务器内部错误-updatePublish错误![22m[39m
+[31m[1m    at Object.throw (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa@2.5.1@koa/lib/context.js:93:11)[22m[39m
+[31m[1m    at Article.findByIdAndUpdate.exec.catch.err (/Users/panhuibin/gitProject/vue-koa2/server/controllers/article.js:69:26)[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:103:7) (in errorHandle.js:24)[22m[39m
+[31m[1m18:33:21.50 <error> InternalServerError: 服务器内部错误-updatePublish错误![22m[39m
+[31m[1m    at Object.throw (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa@2.5.1@koa/lib/context.js:93:11)[22m[39m
+[31m[1m    at Article.findByIdAndUpdate.exec.catch.err (/Users/panhuibin/gitProject/vue-koa2/server/controllers/article.js:69:26)[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:103:7) (in errorHandle.js:24)[22m[39m
+[31m[1m18:34:39.00 <error> InternalServerError: 服务器内部错误-updatePublish错误![22m[39m
+[31m[1m    at Object.throw (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa@2.5.1@koa/lib/context.js:93:11)[22m[39m
+[31m[1m    at Article.findByIdAndUpdate.exec.catch.err (/Users/panhuibin/gitProject/vue-koa2/server/controllers/article.js:69:26)[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:103:7) (in errorHandle.js:24)[22m[39m
+[31m[1m18:34:48.57 <error> InternalServerError: 服务器内部错误-updatePublish错误![22m[39m
+[31m[1m    at Object.throw (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa@2.5.1@koa/lib/context.js:93:11)[22m[39m
+[31m[1m    at Article.findByIdAndUpdate.exec.catch.err (/Users/panhuibin/gitProject/vue-koa2/server/controllers/article.js:69:26)[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:103:7) (in errorHandle.js:24)[22m[39m
+[31m[1m18:35:23.83 <error> InternalServerError: 服务器内部错误-updatePublish错误![22m[39m
+[31m[1m    at Object.throw (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa@2.5.1@koa/lib/context.js:93:11)[22m[39m
+[31m[1m    at Article.findByIdAndUpdate.exec.catch.err (/Users/panhuibin/gitProject/vue-koa2/server/controllers/article.js:69:26)[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:103:7) (in errorHandle.js:24)[22m[39m
+[31m[1m18:39:01.40 <error> InternalServerError: 服务器内部错误-updatePublish错误![22m[39m
+[31m[1m    at Object.throw (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa@2.5.1@koa/lib/context.js:93:11)[22m[39m
+[31m[1m    at Article.findByIdAndUpdate.exec.catch.err (/Users/panhuibin/gitProject/vue-koa2/server/controllers/article.js:68:26)[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:103:7) (in errorHandle.js:24)[22m[39m
+[31m[1m18:42:39.50 <error> BadRequestError: 标签类型不能为空[22m[39m
+[31m[1m    at Object.throw (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa@2.5.1@koa/lib/context.js:93:11)[22m[39m
+[31m[1m    at createTag (/Users/panhuibin/gitProject/vue-koa2/server/controllers/tag.js:8:22)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at module.exports (/Users/panhuibin/gitProject/vue-koa2/server/middlewares/checkToken.js:28:11)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/panhuibin/gitProject/vue-koa2/server/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/panhuibin/gitProject/vue-koa2/server/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:103:7) (in errorHandle.js:24)[22m[39m
