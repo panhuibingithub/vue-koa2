@@ -3,7 +3,7 @@
     <nav class="nav cf">
       <router-link to="/articles">
         <div class="nav-logo">
-          <span class="name">twinkle'blog</span>
+          <span class="name">Test blog</span>
         </div>
       </router-link>
       <ul class="nav-list">
@@ -58,7 +58,6 @@ header
   right: 0
   background-color: #fff
   box-shadow: 0 0 4px rgba(0,0,0,.25)
-  font-family: 'logoFont'
   .nav
     max-width: 1000px
     margin: 0 auto

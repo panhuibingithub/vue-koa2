@@ -1,5 +1,5 @@
 [{
-  "name": "vue-koa2-blog",
+  "name": "vue-koa2",
   "script": "server/app.js",
   "error_file": "server/logs/app-err.log",
   "out_file": "server/logs/app-out.log",

@@ -74,7 +74,7 @@ export default {
         height: 60px
         line-height: 60px
         padding: 0 10px
-        background-color: $white
+        background-color: #2b3340;
         box-shadow:0px 1px 2px #969696
         .logo
             vertical-align: middle

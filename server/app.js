@@ -53,9 +53,7 @@ app.use(errorHandle);
 app.use(initAdmin);
 
 //使用路由中间件
-app
-    .use(router.routes())
-    .use(router.allowedMethods());
+app.use(router.routes()).use(router.allowedMethods());
 
 //监听端口
 app.listen(config.app.port, () => {

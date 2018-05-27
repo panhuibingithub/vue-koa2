@@ -1,6 +1,6 @@
 # front
 
-> vue-koa-blog-front
+> vue-koa-front
 
 ## Build Setup
 

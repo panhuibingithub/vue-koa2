@@ -27,6 +27,7 @@ export default {
             allTags: state => state.article.allTags
         }),
         tags(){
+        		debugger;
             return this.allTags.map(o => o.name);
         }
     },

@@ -1,24 +1,6 @@
-﻿# vue-koa2-blog server篇
+﻿# vue-koa2 server篇
 
 > vue2,koa2和mongo搭建的单用户博客
-
-readme把我在这个项目碰到的一些小坑，难题总结出来，方便日后自己去查阅。
-
-[vue-koa2-blog admin篇](https://github.com/sinner77/vue-koa2-blog/tree/master/admin)
-
-
-## 展示
-![](https://ooo.0o0.ooo/2017/06/21/594a8f7be1a59.png)
-
-![](https://ooo.0o0.ooo/2017/06/21/594a8f7c986f0.png)
-
-![](https://ooo.0o0.ooo/2017/06/21/594a8f79c69af.png)
-
-![](https://ooo.0o0.ooo/2017/06/21/594a8f5e183fe.png)
-
-![](https://ooo.0o0.ooo/2017/06/21/594a8f637a59d.png)
-
-
 ## 目录设计
 * app.js -------- 入口文件
 * models -------- 数据库模型
@@ -29,39 +11,6 @@ readme把我在这个项目碰到的一些小坑，难题总结出来，方便�
 * configs -------- 配置文件
 * package.json --------- 项目所需依赖
 好的目录设计有利于后期的维护，有规有矩，自己看起来也清爽许多。路由部分必须和控制器分开，这样能做控制器只需关心实现该有的业务逻辑。
-
-## 在koa2中如果优雅的全局捕获错误并打印
-```javascript
-# 统一错误处理中间件(来自server/middlewares/errorHandle)
-// use: 统一错误处理中间件，用来统一捕获其他中间件的错误,在其他中间件使用之前使用 
-const tracer = require('tracer'); //使用tracer模块帮助我们自定义打印输出
-const fs = require('fs');
-const logger = tracer.colorConsole({ //自定义错误输出格式
-    level: 'error',
-    format: "{{timestamp}} <{{title}}> {{message}} (in {{file}}:{{line}})",
-	dateformat: "HH:MM:ss.L",
-    transport: function(data){  //指定错误输出的文件，存到error.log下
-        console.log(data.output);  
-        fs.appendFile('./error.log', data.output + '\n', { encoding: 'utf8'}, (err) => {
-            if(err){
-                throw err;
-            };
-        });
-    }
-});
-//该中间件关键点：1.位置，2.一上来就先走其他中间件（需理解官网的洋葱图）
-module.exports = async (ctx, next) => {
-    try{
-        await next(); //一上面直接先执行下面的中间件
-    }catch(err){
-         //.stack为error对象的属性，返回错误或异常的代码跟踪信息
-         //打印出来,并将错误继续向上抛出，如果只打印不继续抛出，相当于控制器抛出的错误在这里就停了, 也可以对错误进行一些操作后再输出
-        logger.error(err.stack);
-        throw(err); 
-    }
-};
-```
-[如何优雅的在 koa 中处理错误](https://yq.aliyun.com/articles/8539?spm=5176.100240.searchblog.17.6QGV6Q)
 
 ## 用class+async/await写控制器
 class+async/await的结合，可以使得我们更好的组织api的逻辑层，语义和结构都会更加清晰。这样做就不用写一个逻辑处理函数都exports一次。直接暴露一个class出去就可以了。async函数作为class的静态方法,所有我们可以直接className.[xxx]来访问这些控制器。

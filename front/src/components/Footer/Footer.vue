@@ -1,7 +1,7 @@
 <template>
     <footer>
-      <p>Copyright © <a href='https://github.com/sinner77' target="_blank">twinkle</a>&nbsp;&nbsp;2017 </p>
-      <p>Created by <a href="https://github.com/sinner77/my-blog" target="_blank">vue-koa2-blog</a></p>
+      <p>Copyright © <a href='#' target="_blank">Test blog</a></p>
+      <p>Created by <a href="#" target="_blank">vue-koa2</a></p>
     </footer>
 </template>
 

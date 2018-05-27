@@ -10,7 +10,7 @@ class MeController{
 			});
 		if(result === null){ //这里再初始化数据，只会执行一次
 			let meObj = new Me({
-				content: 'i am sinner77'
+				content: '个人描述'
 			});
 			let r = await meObj
 					.save()
